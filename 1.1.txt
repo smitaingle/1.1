@@ -1,0 +1,35 @@
+-- # 1.2 Introduction
+
+
+5.  Problem Statement 
+1. Please mention true or false for the below statements:
+ a) Prescriptive Analytics is used to predict the future outcomes 
+ Ans : False
+  Explanation : Prescriptive analytics - uses optimization techniques and suggests what should be done to optimize result
+				example• Retail stores usually run clearance sale by reducing the prices to finish their inventory The question is: When to reduce the price and by how much?
+				• Descriptive analytics: examine historical data for similar products (prices, units sold, advertising etc.)
+				• Predictive analytics: predict sales based on price by analyzing historical sales data
+				• Prescriptive analytics: find the best sets of pricing and advertising to maximize sales revenue
+ b) Base R packages are installed automatically
+Ans : True 
+Explanation: Base pkg made R a programming language
+				example : some functions from base pkgSys.time                Get Current Date and Time		
+				[.data.frame            Extract or Replace Parts of a Data Frame		
+				[.factor                Extract or Replace Parts of a Factor		
+				all.equal               Test if Two Objects are (Nearly) Equal		
+				as.data.frame           Coerce to a Data Frame		
+ 
+2.  What is Recycling of elements   in a vector? 
+	Recycling of elements is the repeating of elements of small vector to match the length of long vector, when applying an OPERATION to 2 vectors 
+	which require same no. of elements or length of vectors.
+ 
+3. Give an example of recycling of elements. 
+> #example of recycling of elemnets of vector
+> v1 <- c(1,2,3)
+> v2 <- c(1,2,3,4,5)
+> v1+v2
+[1] 2 4 6 5 7
+Warning message:
+In v1 + v2 :
+  longer object length is not a multiple of shorter object length
+> 
